@@ -12,10 +12,10 @@ class UserSeeder extends Seeder
     {
         // Cek apakah sudah ada, jika belum buat
         User::firstOrCreate(
-            ['email' => 'admina246@gmail.com'],
+            ['email' => 'hutaginjang001@gmail.com'],
             [
                 'name' => 'Admin GeoToba',
-                'password' => Hash::make('admin123'),
+                'password' => Hash::make('qwerty123'),
             ]
         );
     }
