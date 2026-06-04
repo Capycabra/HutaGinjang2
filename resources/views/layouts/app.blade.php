@@ -120,24 +120,27 @@
             backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 24px;
-            padding: 0.6rem 0;
+            padding: 0.6rem; /* balanced horizontal padding so items align */
             margin-top: 0.7rem;
             box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.3);
         }
-        
+
         .dropdown-item {
+            display: block;
             color: white;
-            padding: 10px 24px;
+            padding: 10px 18px; /* balanced left/right padding */
             font-size: 0.85rem;
-            transition: all 0.25s ease;
-            border-radius: 18px;
-            margin: 4px 10px;
+            transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+            border-radius: 12px; /* slightly reduced so hover is less dominant */
+            margin: 6px 0; /* vertical spacing only to keep hover width consistent */
+            box-sizing: border-box;
+            text-align: left;
         }
-        
+
         .dropdown-item:hover {
             background: rgba(198, 164, 59, 0.2);
             color: var(--gold);
-            transform: translateX(5px);
+            transform: none; /* remove sideways shift for symmetry */
         }
 
         .dropdown-item.active,
@@ -148,9 +151,8 @@
             border-radius: 12px;
             display: block;
             text-align: center;
-            padding-top: 7px;
-            padding-bottom: 7px;
-            margin: 4px 10px;
+            padding: 10px 18px;
+            margin: 6px 0;
             transform: none;
         }
         
