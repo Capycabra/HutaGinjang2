@@ -344,7 +344,7 @@
             <div class="col-lg-6" data-aos="fade-left">
                 <div class="map-card">
                    <iframe
-    src="https://maps.google.com/maps?q=Pulau+Samosir,+Sumatera+Utara&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    src="https://www.google.com/maps?q=Huta+Ginjang,+Kec.+Muara,+Kabupaten+Tapanuli+Utara,+Sumatera+Utara&z=14&output=embed"
     width="100%"
     height="450"
     style="border:0;"
