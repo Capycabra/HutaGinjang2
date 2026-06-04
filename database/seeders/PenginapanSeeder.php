@@ -12,9 +12,21 @@ class PenginapanSeeder extends Seeder
         DB::table('penginapan')->truncate();
 
         $data = [
-            // hutaginjang
             [
-             
+                'nama' => 'Huta Ginjang Resort',
+                'deskripsi' => 'Resort eksklusif di tepi Danau Toba dengan pemandangan spektakuler dan fasilitas lengkap.',
+                'harga' => '500000',
+                'kontak' => '+62-821-1234-5678',
+                'geosite' => 'huta-ginjang',
+                'status' => true,
+            ],
+            [
+                'nama' => 'Penginapan Tradisional Batak',
+                'deskripsi' => 'Penginapan dengan arsitektur tradisional Batak yang autentik dan nyaman untuk keluarga.',
+                'harga' => '250000',
+                'kontak' => '+62-821-8765-4321',
+                'geosite' => 'huta-ginjang',
+                'status' => true,
             ],
         ];
 
