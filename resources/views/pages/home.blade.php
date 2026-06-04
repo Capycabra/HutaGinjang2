@@ -563,39 +563,7 @@
         position: relative;
     }
     
-    .about-image::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(135deg, rgba(198,164,59,0.3), transparent);
-        opacity: 0;
-        transition: opacity 0.5s ease;
-        z-index: 1;
-    }
-    
-    .about-image:hover::before {
-        opacity: 1;
-    }
-    
-    .about-image:hover { 
-        transform: scale(1.03) translateY(-10px);
-        box-shadow: 0 20px 40px rgba(0, 51, 102, 0.25);
-    }
-    
-    .about-image img { 
-        width: 100%; 
-        height: auto; 
-        display: block; 
-        transition: transform 0.5s ease;
-    }
-    
-    .about-image:hover img {
-        transform: scale(1.05);
-    }
-    
+
     /* ==================== DESTINASI ==================== */
     .destinasi-list { display: flex; flex-direction: column; gap: 80px; }
     .destinasi-item {
@@ -617,24 +585,7 @@
         position: relative;
     }
     
-    .destinasi-image::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 0;
-        height: 0;
-        background: radial-gradient(circle, rgba(198,164,59,0.4), transparent);
-        border-radius: 50%;
-        transform: translate(-50%, -50%);
-        transition: width 0.6s, height 0.6s;
-        z-index: 1;
-    }
-    
-    .destinasi-image:hover::before {
-        width: 300px;
-        height: 300px;
-    }
+   
     
     .destinasi-image:hover { 
         transform: scale(1.05) translateY(-10px);
