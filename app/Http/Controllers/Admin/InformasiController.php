@@ -99,13 +99,4 @@ class InformasiController extends Controller
         return redirect()->route('admin.informasi.index')
             ->with('success', 'Data berhasil dihapus!');
     }
-
-    public function toggleStatus($id)
-    {
-        $informasi = Informasi::findOrFail($id);
-        $informasi->status = !$informasi->status;
-        $informasi->save();
-
-        return response()->json(['success' => true, 'status' => $informasi->status]);
-    }
 }
