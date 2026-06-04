@@ -237,29 +237,7 @@
             transform: translateX(5px);
         }
         
-        .social-icons {
-            display: flex;
-            gap: 10px;
-            margin-top: 15px;
-        }
         
-        .social-icons a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 34px;
-            height: 34px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
-        }
-        
-        .social-icons a:hover {
-            background: var(--gold);
-            transform: translateY(-3px);
-        }
-        
-        .social-icons a:hover i { color: var(--blue-dark); }
         
         .copyright {
             border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -351,10 +329,7 @@
                     <h5>Geo<span style="color: #c6a43b;">Toba</span></h5>
                     <p style="font-size: 0.8rem; color: rgba(255,255,255,0.7);">Sistem Informasi Geosite Danau Toba - Menyajikan informasi lengkap tentang keindahan geologi dan budaya Batak di kawasan Danau Toba.</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4">
@@ -379,9 +354,9 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5>Kontak</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2" style="color: #c6a43b;"></i> Danau Toba, Sumatera Utara</li>
-                        <li class="mb-2"><i class="fas fa-phone me-2" style="color: #c6a43b;"></i> +62 812 3456 7890</li>
-                        <li class="mb-2"><i class="fas fa-envelope me-2" style="color: #c6a43b;"></i> info@geotoba.com</li>
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2" style="color: #c6a43b;"></i>Kecamatan muara, Kabupaten Tapanuli Utara</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2" style="color: #c6a43b;"></i> +62 895-3863-78292</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2" style="color: #c6a43b;"></i> hutaginjang001@gmail.com</li>
                     </ul>
                 </div>
             </div>

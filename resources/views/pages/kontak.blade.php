@@ -269,7 +269,7 @@
                     </div>
                     <h4>Alamat</h4>
                     <p>Geosite Danau Toba</p>
-                    <p>Pulau Sibandang, Danau Toba</p>
+                    <p>Kecamatan Muara, Kabupaten Tapanuli Utara</p>
                     <p>Sumatera Utara, Indonesia</p>
                 </div>
             </div>
@@ -281,9 +281,9 @@
                         <i class="fas fa-phone-alt"></i>
                     </div>
                     <h4>Telepon</h4>
-                    <p>+62 812 3456 7890</p>
-                    <p>+62 813 9876 5432</p>
-                    <p>(0622) 12345</p>
+                    <p>+62 895-3863-78292</p>
+                    <p></p>
+                    <p></p>
                 </div>
             </div>
             
@@ -294,9 +294,9 @@
                         <i class="fas fa-envelope"></i>
                     </div>
                     <h4>Email</h4>
-                    <p>info@geotoba.com</p>
-                    <p>reservasi@geotoba.com</p>
-                    <p>support@geotoba.com</p>
+                    <p>hutaginjang001@gmail.com</p>
+                    <p></p>
+                    <p></p>
                 </div>
             </div>
         </div>
@@ -344,7 +344,7 @@
             <div class="col-lg-6" data-aos="fade-left">
                 <div class="map-card">
                    <iframe
-    src="https://maps.google.com/maps?q=Pulau+Samosir,+Sumatera+Utara&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    src="https://www.google.com/maps?q=Huta+Ginjang,+Kec.+Muara,+Kabupaten+Tapanuli+Utara,+Sumatera+Utara&z=14&output=embed"
     width="100%"
     height="450"
     style="border:0;"
@@ -354,11 +354,7 @@
                     <div class="map-info">
                         <h4>Ikuti Kami</h4>
                         <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-tiktok"></i></a>
+
                         </div>
                         <div class="jam-operasional">
                             <h5>Jam Operasional</h5>
