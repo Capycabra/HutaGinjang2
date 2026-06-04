@@ -357,7 +357,7 @@
                     <h5>Kontak</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2"><i class="fas fa-map-marker-alt me-2" style="color: #c6a43b;"></i>Kecamatan muara, Kabupaten Tapanuli Utara</li>
-                        <li class="mb-2"><i class="fas fa-phone me-2" style="color: #c6a43b;"></i> +62 895-3863-78292</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2" style="color: #c6a43b;"></i>+62 822-7668-9115</li>
                         <li class="mb-2"><i class="fas fa-envelope me-2" style="color: #c6a43b;"></i> hutaginjang001@gmail.com</li>
                     </ul>
                 </div>

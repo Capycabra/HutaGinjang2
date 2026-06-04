@@ -7,12 +7,12 @@
 <style>
     /* ==================== HERO SECTION ==================== */
     .kategori-hero {
-        height: 45vh;
-        min-height: 350px;
+        height: 40vh;
+        min-height: 320px;
 
         background:
             linear-gradient(rgba(0,51,102,0.45), rgba(0,51,102,0.45)),
-            url('{{ asset("image/tuktuk/destinasi-" . strtolower($kategori) . ".jpg") }}');
+            url('{{ asset("image/hutaginjang/d.png") }}');
 
         background-size: cover;
         background-position: center;

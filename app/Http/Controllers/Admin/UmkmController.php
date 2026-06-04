@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Umkm;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class UmkmController extends Controller
 {
@@ -39,7 +40,8 @@ class UmkmController extends Controller
             'lokasi'    => $request->lokasi,
             'kontak'    => $request->kontak,
             'geosite'   => $request->geosite,
-            'status'    => $request->has('status') ? 1 : 0,
+            'status'    => $request->boolean('status'),
+            'admin_id'  => Auth::id() ?? 1,
         ];
 
         if ($request->hasFile('gambar')) {

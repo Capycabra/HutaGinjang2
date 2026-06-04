@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Fasilitas;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class FasilitasController extends Controller
 {
@@ -37,7 +38,8 @@ class FasilitasController extends Controller
             'deskripsi' => $request->deskripsi,
             'harga'     => $request->harga,
             'geosite'   => $request->geosite,
-            'status'    => $request->has('status') ? 1 : 0,
+            'status'    => $request->boolean('status'),
+            'admin_id'  => Auth::id() ?? 1,
         ];
 
         if ($request->hasFile('gambar')) {

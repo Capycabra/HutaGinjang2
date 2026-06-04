@@ -7,12 +7,12 @@
 <style>
     /* ==================== HERO SECTION ==================== */
     .destinasi-hero {
-        height: 55vh;
-        min-height: 400px;
+        height: 48vh;
+        min-height: 360px;
 
         background:
             linear-gradient(rgba(0, 51, 102, 0.45), rgba(0, 51, 102, 0.45)),
-            url('{{ asset("image/tuktuk/slide1.jpg") }}');
+            url('{{ asset("image/hutaginjang/d.png") }}');
 
         background-size: cover;
         background-position: center;
@@ -317,8 +317,8 @@
                     <h3>Destinasi Alam</h3>
 
                     <p>
-                        Goa alami, formasi batuan unik, air terjun,
-                        dan keindahan alam Danau Toba
+                        Destinasi wisata alam yang menampilkan keindahan geologi, pegunungan, air terjun,
+                        dan keunikan alam Danau Toba.
                     </p>
                 </div>
             </a>
@@ -338,8 +338,8 @@
                     <h3>Destinasi Buatan</h3>
 
                     <p>
-                        Patung ikonik, taman kota,
-                        jembatan dengan pemandangan spektakuler
+                        Destinasi wisata buatan manusia yang menjadi ikon dan daya tarik wisata
+                        di kawasan Danau Toba.
                     </p>
                 </div>
             </a>
@@ -359,8 +359,8 @@
                     <h3>Destinasi Budaya</h3>
 
                     <p>
-                        Desa adat, museum sejarah, kerajinan ulos,
-                        dan kearifan lokal Batak
+                        Destinasi wisata budaya yang menampilkan kearifan lokal, adat istiadat,
+                        dan warisan leluhur Batak Toba.
                     </p>
                 </div>
             </a>

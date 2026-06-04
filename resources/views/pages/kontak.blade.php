@@ -281,7 +281,7 @@
                         <i class="fas fa-phone-alt"></i>
                     </div>
                     <h4>Telepon</h4>
-                    <p>+62 895-3863-78292</p>
+                    <p>+62 822-7668-9115</p>
                     <p></p>
                     <p></p>
                 </div>
