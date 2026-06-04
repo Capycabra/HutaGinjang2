@@ -1117,7 +1117,8 @@
                     <div class="destinasi-number">01 — GEOSITE</div>
                     <h3>Bukit Doa</h3>
                     <div class="destinasi-location">Desa Huta Ginjang, Kecamatan Muara, Kabupaten Tapanuli Utara, Provinsi Sumatera Utara, Indonesia.</div>
-                    <p class="destinasi-desc">Bukit Doa adalah kawasan wisata religi, retret, dan tempat refleksi rohani yang banyak ditemukan di berbagai daerah di Indonesia. Lokasi-lokasi ini biasanya dilengkapi dengan fasilitas doa, kapel, jalan salib, dan pemandangan alam yang asri untuk mendukung kegiatan spiritual</p>
+                    <p class="destinasi-desc" style="text-align: justify;">Bukit Doa adalah kawasan wisata religi, retret, dan tempat refleksi rohani yang banyak ditemukan di berbagai daerah di Indonesia.
+                        Lokasi-lokasi ini biasanya dilengkapi dengan fasilitas doa, kapel, jalan salib, dan pemandangan alam yang asri untuk mendukung kegiatan spiritual</p>
                     <a href="{{ url('/geosite/huta-ginjang') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
@@ -1131,7 +1132,7 @@
                     <div class="destinasi-number">02 — GEOSITE</div>
                     <h3>Paralayang</h3>
                     <div class="destinasi-location">Desa Sitanggor & Huta Ginjang, Kecamatan Muara, Kabupaten Tapanuli Utara, Sumatera Utara.</div>
-                    <p class="destinasi-desc">paralayang di Huta Ginjang merupakan salah satu olahraga ekstrem dan daya tarik wisata dirgantara terbaik di Indonesia.
+                    <p class="destinasi-desc" style="text-align: justify;">paralayang di Huta Ginjang merupakan salah satu olahraga ekstrem dan daya tarik wisata dirgantara terbaik di Indonesia.
                          Di sini, wisatawan dapat memacu adrenalin dengan terbang melayang menggunakan parasut dari puncak bukit, sambil disuguhi pemandangan spektakuler Kaldera Danau Toba, Pulau Samosir, serta hamparan Lembah Muara dari ketinggian.</p>
                     <a href="{{ url('/geosite/huta-ginjang') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
@@ -1146,8 +1147,11 @@
                     <div class="destinasi-number">03 — GEOSITE</div>
                     <h3>Tugu Toga Muara Raja</h3>
                     <div class="destinasi-location">Desa Dolok Martumbur (dekat Desa Aritonang), Kecamatan Muara, Kabupaten Tapanuli Utara.</div>
-                    <p class="destinasi-desc">Tugu ini merupakan monumen paling megah di Muara, dibangun oleh keturunan Raja Lontung ke-6 (Toga Aritonang)
-                         yang meliputi marga Simaremare, Rajagukguk, dan Ompusunggu. Tugu setinggi 33 meter ini berbentuk modern menyerupai sayap burung.</p>
+                    <p class="destinasi-desc" style="text-align: justify;">Tugu Toga Aritonang berdiri megah di atas perbukitan Desa Aritonang, Kecamatan Muara, Kabupaten Tapanuli Utara.
+                         Berjarak sekitar 1.000 meter dari bibir pantai Danau Toba, lokasi strategis ini menyajikan panorama alam yang luar biasa indah.
+                         Dari puncak bukit ini, para pengunjung dapat menikmati pemandangan lanskap Danau Toba yang membentang luas, gugusan perbukitan hijau yang asri,
+                         serta embusan angin sejuk khas dataran tinggi Toba yang menenangkan. Bangunan setinggi 33 meter ini dirancang dengan gaya modern yang melambangkan filosofi masyarakat Batak.
+                          Di dalam tugu ini terdapat patung dari tiga anak Toga Aritonang, yaitu Ompusunggu, Rajagukguk, dan Simaremare.</p>
                     <a href="{{ url('/geosite/huta-ginjang') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
