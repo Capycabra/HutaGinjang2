@@ -41,13 +41,6 @@
                     @enderror
                 </div>
                 
-                <div class="col-md-6 mb-3">
-                    <label class="form-label required">Kategori</label>
-                    <input type="text" class="form-control" value="Hutaginjang" readonly>
-                    <input type="hidden" name="kategori" value="Hutaginjang">
-                    <small class="text-muted"></small>
-                </div>
-                
                 <div class="col-md-12 mb-3">
                     <label class="form-label required">Deskripsi</label>
                     <textarea name="deskripsi" class="form-control @error('deskripsi') is-invalid @enderror" 

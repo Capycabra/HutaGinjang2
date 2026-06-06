@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="col-md-6 mb-3">
-                    <label>Kategori</label>
+                    <label></label>
                     <input type="text" class="form-control" value="Hutaginjang" readonly>
                     <input type="hidden" name="kategori" value="Hutaginjang">
                 </div>

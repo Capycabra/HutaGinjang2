@@ -1089,13 +1089,13 @@
     <div class="container">
         <div class="about-grid">
             <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
-                <h3>Warisan Geologi Kelas Dunia</h3>
-                <p>Terletak di Kecamatan Muara, Kabupaten Tapanuli Utara, Huta Ginjang adalah salah satu destinasi unggulan yang
+                <h3>Selamat Datang di Huta Ginjang</h3>
+                <p style="text-align: justify;">Terletak di Kecamatan Muara, Kabupaten Tapanuli Utara, Huta Ginjang adalah salah satu destinasi unggulan yang
                      wajib dikunjungi di kawasan Danau Toba UNESCO Global Geopark. Berada di ketinggian sekitar 1.550 meter di atas permukaan laut,
                       tempat ini menawarkan sudut pandang tanpa batas untuk menyaksikan mahakarya alam kaldera Toba purba.</p>
-                <p>Huta Ginjang dapat diakses dengan mudah menggunakan kendaraan bermotor melalui jalan aspal yang mulus.
-                     Berjarak sangat dekat dari Bandar Udara Internasional Sisingamangaraja XII (Silangit), destinasi ini
-                      hanya membutuhkan waktu sekitar 10 hingga 20 menit perjalanan. </p>
+                <p style="text-align: justify;">Geosite Huta Ginjang merupakan bagian penting dari Taman Wisata Alam (TWA) Sijaba Huta Ginjang yang dikelola Balai Besar Konservasi Sumber Daya Alam (BBKSDA).
+                     Taman seluas 500 hektar lebih ini terbagi dalam dua bagian terpisah yaitu Sijaba di Desa Sihonongan, Desa Paranginan Selatan dan Desa Lumban Barat di Kecamatan Paranginan,
+                      Kabupaten Humbang Hasundutan Humbahas, dan Huta Ginjang di Desa Silando, Huta Ginjang dan Desa Sitanggor, Kecamatan Muara, Kabupaten Tapanuli Utara. </p>
             </div>
             <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
                 <img src="/image/hutaginjang/hutaginjang_1.jpg" alt="Danau Toba">
@@ -1125,7 +1125,6 @@
                     <div class="destinasi-location">Desa Huta Ginjang, Kecamatan Muara, Kabupaten Tapanuli Utara, Provinsi Sumatera Utara, Indonesia.</div>
                     <p class="destinasi-desc" style="text-align: justify;">Bukit Doa adalah kawasan wisata religi, retret, dan tempat refleksi rohani yang banyak ditemukan di berbagai daerah di Indonesia.
                         Lokasi-lokasi ini biasanya dilengkapi dengan fasilitas doa, kapel, jalan salib, dan pemandangan alam yang asri untuk mendukung kegiatan spiritual</p>
-                    <a href="{{ url('/geosite/huta-ginjang') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
             
@@ -1140,7 +1139,6 @@
                     <div class="destinasi-location">Desa Sitanggor & Huta Ginjang, Kecamatan Muara, Kabupaten Tapanuli Utara, Sumatera Utara.</div>
                     <p class="destinasi-desc" style="text-align: justify;">paralayang di Huta Ginjang merupakan salah satu olahraga ekstrem dan daya tarik wisata dirgantara terbaik di Indonesia.
                          Di sini, wisatawan dapat memacu adrenalin dengan terbang melayang menggunakan parasut dari puncak bukit, sambil disuguhi pemandangan spektakuler Kaldera Danau Toba, Pulau Samosir, serta hamparan Lembah Muara dari ketinggian.</p>
-                    <a href="{{ url('/geosite/huta-ginjang') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
             
@@ -1158,7 +1156,6 @@
                          Dari puncak bukit ini, para pengunjung dapat menikmati pemandangan lanskap Danau Toba yang membentang luas, gugusan perbukitan hijau yang asri,
                          serta embusan angin sejuk khas dataran tinggi Toba yang menenangkan. Bangunan setinggi 33 meter ini dirancang dengan gaya modern yang melambangkan filosofi masyarakat Batak.
                           Di dalam tugu ini terdapat patung dari tiga anak Toga Aritonang, yaitu Ompusunggu, Rajagukguk, dan Simaremare.</p>
-                    <a href="{{ url('/geosite/huta-ginjang') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
         </div>
