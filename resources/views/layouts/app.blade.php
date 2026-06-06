@@ -156,6 +156,24 @@
             transform: none;
         }
         
+        /* Force consistent dropdown-item style across breakpoints/pages */
+        .dropdown-menu .dropdown-item {
+            padding: 10px 18px !important;
+            background: transparent !important;
+            color: white !important;
+            border-radius: 12px !important;
+            display: block !important;
+            box-sizing: border-box !important;
+            text-align: left !important;
+            width: auto !important;
+            margin: 6px 0 !important;
+        }
+
+        .dropdown-menu .dropdown-item:hover {
+            background: rgba(198, 164, 59, 0.2) !important;
+            color: var(--gold) !important;
+            transform: none !important;
+        }
         .dropdown-header {
             color: var(--gold);
             padding: 8px 24px;
@@ -302,7 +320,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ url('/') }}">Home</a></li>
-                    <li class="nav-item"><a class="nav-link {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="{{ url('/geosite/huta-ginjang') }}">Geosite</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="#" data-bs-toggle="dropdown">Geosite</a>
+                        <ul class="dropdown-menu">
+                            <li><h6 class="dropdown-header">NAVIGASI GEOSITE</h6></li>
+                            <li><a class="dropdown-item {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="{{ url('/geosite/huta-ginjang#sejarah') }}">Sejarah</a></li>
+                            <li><a class="dropdown-item {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="{{ url('/geosite/huta-ginjang#umkm') }}">UMKM</a></li>
+                            <li><a class="dropdown-item {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="{{ url('/geosite/huta-ginjang#penginapan') }}">Penginapan</a></li>
+                            <li><a class="dropdown-item {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="{{ url('/geosite/huta-ginjang#fasilitas') }}">Fasilitas</a></li>
+                            <li><a class="dropdown-item {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="{{ url('/geosite/huta-ginjang#galeri') }}">Galeri</a></li>
+                            <li><a class="dropdown-item {{ request()->routeIs('geosite.huta-ginjang') ? 'active' : '' }}" href="{{ url('/geosite/huta-ginjang#lokasi') }}">Lokasi</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link {{ request()->routeIs('informasi') ? 'active' : '' }}" href="{{ url('/informasi') }}">Informasi</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ request()->routeIs('destinasi*') ? 'active' : '' }}" href="#" data-bs-toggle="dropdown">Destinasi</a>

@@ -17,132 +17,6 @@ body {
     --dark: #1a1a1a;
 }
 
-/* ========== NAVBAR BIRU ========== */
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background: rgba(0, 51, 102, 0.95);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(198, 164, 59, 0.3);
-    padding: 12px 0;
-}
-.nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-logo {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-.flag-img {
-    width: 65px;
-    border-radius: 5px;
-}
-.logo-divider {
-    width: 1px;
-    height: 28px;
-    background: rgba(255,255,255,0.3);
-}
-.del-img {
-    width: 32px;
-    border-radius: 5px;
-}
-.logo-text h4 {
-    font-size: 0.85rem;
-    color: white;
-}
-.logo-text p {
-    font-size: 0.4rem;
-    color: rgba(255,255,255,0.6);
-}
-.nav-menu {
-    display: flex;
-    gap: 25px;
-}
-.nav-link {
-    font-size: 0.7rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: rgba(255,255,255,0.85);
-    font-weight: 500;
-    transition: 0.3s;
-}
-.nav-link:hover {
-    color: var(--gold);
-}
-.home-btn {
-    background: var(--gold);
-    color: var(--blue) !important;
-    padding: 6px 18px;
-    border-radius: 40px;
-}
-
-/* ========== HAMBURGER ========== */
-.hamburger {
-    display: none;
-    cursor: pointer;
-    padding: 8px 12px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 50px;
-}
-.hamburger span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: white;
-    margin: 5px 0;
-}
-.mobile-overlay {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 260px;
-    height: 100vh;
-    background: var(--blue);
-    z-index: 1001;
-    transition: right 0.3s;
-    padding: 80px 25px;
-}
-.mobile-overlay.active {
-    right: 0;
-}
-.mobile-close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 28px;
-    cursor: pointer;
-    color: white;
-}
-.mobile-link {
-    display: block;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: rgba(255,255,255,0.85);
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-align: center;
-}
-.mobile-link:hover {
-    color: var(--gold);
-}
-.mobile-home {
-    background: var(--gold);
-    color: var(--blue) !important;
-    border-radius: 40px;
-    margin-bottom: 10px;
-}
-
 /* ========== HERO ========== */
 .hero {
     width: 100%;
@@ -734,9 +608,6 @@ body {
 
 /* ========== RESPONSIVE ========== */
 @media (max-width: 900px) {
-    .nav-menu {
-        gap: 25px;
-    }
     .hero-title {
         font-size: 2.5rem;
     }
@@ -752,24 +623,6 @@ body {
     }
 }
 @media (max-width: 768px) {
-    .nav-menu {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-    .nav-logo {
-        gap: 12px;
-    }
-    .flag-img {
-        width: 50px;
-    }
-    .del-img {
-        width: 28px;
-    }
-    .logo-text h4 {
-        font-size: 0.8rem;
-    }
     .hero {
         margin-top: 65px;
         min-height: 350px;
@@ -847,21 +700,6 @@ body {
     }
 }
 @media (max-width: 576px) {
-    .nav-logo {
-        gap: 8px;
-    }
-    .flag-img {
-        width: 40px;
-    }
-    .del-img {
-        width: 22px;
-    }
-    .logo-divider {
-        height: 20px;
-    }
-    .logo-text h4 {
-        font-size: 0.7rem;
-    }
     .hero {
         min-height: 300px;
         padding: 60px 20px;
