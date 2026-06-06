@@ -152,14 +152,16 @@
     }
     
     .slide::before {
+        /* overlay removed to disable left-right shimmer animation */
         content: '';
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(135deg, rgba(0,51,102,0.4) 0%, rgba(0,102,153,0.2) 100%);
-        animation: shimmer 3s infinite;
+        background: none;
+        animation: none;
+        pointer-events: none;
     }
     
     .slide-1 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/Hutaginjang_2.jpg'); }
@@ -914,7 +916,7 @@
     /* ==================== CTA ==================== */
     .cta-section {
         background: linear-gradient(135deg, #003366 0%, #0a4a7a 50%, #005c8a 100%);
-        padding: 80px 0;
+        padding: 50px 0;
         text-align: center;
         position: relative;
         overflow: hidden;
@@ -1088,8 +1090,12 @@
         <div class="about-grid">
             <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
                 <h3>Warisan Geologi Kelas Dunia</h3>
-                <p>Danau Toba, terbentuk dari letusan supervolcano 74.000 tahun lalu, adalah danau vulkanik terbesar di dunia. Diakui UNESCO sebagai Global Geopark pada tahun 2020.</p>
-                <p>Kawasan ini menyimpan nilai geologi luar biasa, keanekaragaman hayati, dan warisan budaya Batak yang autentik. </p>
+                <p>Terletak di Kecamatan Muara, Kabupaten Tapanuli Utara, Huta Ginjang adalah salah satu destinasi unggulan yang
+                     wajib dikunjungi di kawasan Danau Toba UNESCO Global Geopark. Berada di ketinggian sekitar 1.550 meter di atas permukaan laut,
+                      tempat ini menawarkan sudut pandang tanpa batas untuk menyaksikan mahakarya alam kaldera Toba purba.</p>
+                <p>Huta Ginjang dapat diakses dengan mudah menggunakan kendaraan bermotor melalui jalan aspal yang mulus.
+                     Berjarak sangat dekat dari Bandar Udara Internasional Sisingamangaraja XII (Silangit), destinasi ini
+                      hanya membutuhkan waktu sekitar 10 hingga 20 menit perjalanan. </p>
             </div>
             <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
                 <img src="/image/hutaginjang/hutaginjang_1.jpg" alt="Danau Toba">
@@ -1145,7 +1151,7 @@
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">03 — GEOSITE</div>
-                    <h3>Tugu Toga Muara Raja</h3>
+                    <h3>Tugu Aritonang</h3>
                     <div class="destinasi-location">Desa Dolok Martumbur (dekat Desa Aritonang), Kecamatan Muara, Kabupaten Tapanuli Utara.</div>
                     <p class="destinasi-desc" style="text-align: justify;">Tugu Toga Aritonang berdiri megah di atas perbukitan Desa Aritonang, Kecamatan Muara, Kabupaten Tapanuli Utara.
                          Berjarak sekitar 1.000 meter dari bibir pantai Danau Toba, lokasi strategis ini menyajikan panorama alam yang luar biasa indah.
@@ -1165,7 +1171,7 @@
         <div class="section-title" data-aos="fade-up" data-aos-duration="800">
             <h2>Lokasi Huta Ginjang</h2>
             <div class="divider"></div>
-            <p>Huta Ginjang</p>
+
         </div>
         
         <div class="maps-container" data-aos="zoom-in" data-aos-duration="1000">

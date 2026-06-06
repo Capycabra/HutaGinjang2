@@ -198,44 +198,7 @@
         margin-bottom: 0;
     }
 
-    /* ==================== STATS SECTION ==================== */
-    .stats-section {
-        background: linear-gradient(135deg, #003366, #1a4a7a);
-        padding: 60px 0;
-    }
-
-    .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 30px;
-    }
-
-    .stat-item {
-        text-align: center;
-        padding: 20px;
-        background: rgba(255,255,255,0.08);
-        border-radius: 16px;
-        transition: all 0.3s ease;
-    }
-
-    .stat-item:hover {
-        background: rgba(255,255,255,0.15);
-        transform: translateY(-5px);
-    }
-
-    .stat-number {
-        font-size: 2rem;
-        font-weight: 700;
-        color: #c6a43b;
-        margin-bottom: 8px;
-    }
-
-    .stat-label {
-        font-size: 0.7rem;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: rgba(255,255,255,0.8);
-    }
+   
 
     /* ==================== RESPONSIVE ==================== */
     @media (max-width: 992px) {
@@ -370,33 +333,7 @@
 </section>
 
 <!-- STATS SECTION -->
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-grid">
 
-            <div class="stat-item" data-aos="fade-up">
-                <div class="stat-number">74.000+</div>
-                <div class="stat-label">TAHUN SEJARAH</div>
-            </div>
-
-            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
-                <div class="stat-number">3</div>
-                <div class="stat-label">GEOSITE UNGGULAN</div>
-            </div>
-
-            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
-                <div class="stat-number">15+</div>
-                <div class="stat-label">WARISAN BUDAYA</div>
-            </div>
-
-            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
-                <div class="stat-number">100+</div>
-                <div class="stat-label">UMKM LOKAL</div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <!-- FONT AWESOME -->
 <link rel="stylesheet"

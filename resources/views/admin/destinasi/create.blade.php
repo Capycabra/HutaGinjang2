@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="d-flex justify-content-between align-items-center mb-3">
-    <h5 class="mb-0">➕ Tambah Destinasi</h5>
+    <h5 class="mb-0">Tambah Destinasi</h5>
     <a href="{{ route('admin.destinasi.index') }}" class="btn btn-secondary">
         <i class="fas fa-arrow-left"></i> Kembali
     </a>

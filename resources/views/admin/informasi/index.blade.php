@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="d-flex justify-content-between align-items-center mb-3">
-    <h5 class="mb-0">📜 Sejarah Caldera Toba</h5>
+    <h5 class="mb-0">Sejarah Caldera Toba</h5>
     <a href="{{ route('admin.informasi.create') }}" class="btn btn-primary">
         <i class="fas fa-plus"></i> Tambah Data
     </a>
@@ -56,15 +56,15 @@
                             </span>
                         </td>
                         <td>
-                            <div class="btn-group" role="group">
-                                <a href="{{ route('admin.informasi.edit', $item->id) }}" class="btn btn-sm btn-warning">
-                                    <i class="fas fa-edit"></i>
+                            <div class="d-flex flex-column gap-2">
+                                <a href="{{ route('admin.informasi.edit', $item->id) }}" class="btn btn-sm btn-warning w-100">
+                                    <i class="fas fa-edit"></i> Edit
                                 </a>
-                                <form action="{{ route('admin.informasi.destroy', $item->id) }}" method="POST" class="d-inline">
+                                <form action="{{ route('admin.informasi.destroy', $item->id) }}" method="POST" class="w-100">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus data ini?')">
-                                        <i class="fas fa-trash"></i>
+                                    <button type="submit" class="btn btn-sm btn-danger w-100" onclick="return confirm('Yakin ingin menghapus data ini?')">
+                                        <i class="fas fa-trash"></i> Hapus
                                     </button>
                                 </form>
                             </div>

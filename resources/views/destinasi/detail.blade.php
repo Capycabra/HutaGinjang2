@@ -80,7 +80,9 @@
     /* ==================== MAIN CONTENT ==================== */
     .detail-wrapper {
         background: #f8f9fa;
-        padding: 60px 0;
+        --card-bleed: 190px; /* horizontal bleed on each side; change this to control card horizontal expansion */
+        --card-vertical: 60px; /* vertical padding inside the card; change to control top/bottom spacing */
+        padding: var(--card-vertical) 0;
     }
 
     .detail-container {
@@ -93,8 +95,11 @@
     .detail-card {
         background: white;
         border-radius: 20px;
-        padding: 40px;
+        padding: var(--card-vertical) calc(var(--card-bleed) + 30px);
         margin-bottom: 30px;
+        width: calc(100% + (var(--card-bleed) * 2));
+        margin-left: calc(var(--card-bleed) * -1);
+        margin-right: calc(var(--card-bleed) * -1);
         box-shadow: 0 8px 30px rgba(0,0,0,0.07);
         transition: box-shadow 0.3s ease;
     }
@@ -201,7 +206,13 @@
         }
 
         .detail-card {
+            /* prevent horizontal overflow on small screens */
+            width: auto;
+            margin-left: 0;
+            margin-right: 0;
             padding: 25px 20px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
 </style>

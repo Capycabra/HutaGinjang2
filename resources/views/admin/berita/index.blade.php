@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="d-flex justify-content-between align-items-center mb-3">
-    <h5 class="mb-0">📰 Daftar Berita</h5>
+    <h5 class="mb-0">Daftar Berita</h5>
     <a href="{{ route('admin.berita.create') }}" class="btn btn-primary">
         <i class="fas fa-plus"></i> Tambah Berita
     </a>

@@ -111,6 +111,12 @@
         padding: 60px 0;
         text-align: center;
     }
+    .cta-content h3 {
+        color: white;
+    }
+    .cta-content p {
+        color: rgba(255,255,255,0.85);
+    }
     .cta-btn {
         display: inline-block;
         background: #c6a43b;

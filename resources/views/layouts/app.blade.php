@@ -204,7 +204,7 @@
         .footer {
             background: var(--blue-dark);
             color: white;
-            padding: 40px 0 20px;
+            padding: 11px 0 9px;
             margin-top: 0;
         }
         
@@ -244,7 +244,7 @@
         .copyright {
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             padding-top: 15px;
-            margin-top: 25px;
+            margin-top: -30px;
             text-align: center;
             font-size: 0.7rem;
             color: rgba(255, 255, 255, 0.5);
@@ -306,7 +306,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ request()->routeIs('destinasi*') ? 'active' : '' }}" href="#" data-bs-toggle="dropdown">Destinasi</a>
                         <ul class="dropdown-menu">
-                            <li><h6 class="dropdown-header"><i class="fas fa-tag me-1"></i> KATEGORI DESTINASI</h6></li>
+                            <li><h6 class="dropdown-header"></i> KATEGORI DESTINASI</h6></li>
                             <li><a class="dropdown-item {{ request()->routeIs('destinasi.alam') ? 'active' : '' }}" href="{{ url('/destinasi/alam') }}">Destinasi Alam</a></li>
                             <li><a class="dropdown-item {{ request()->routeIs('destinasi.buatan') ? 'active' : '' }}" href="{{ url('/destinasi/buatan') }}">Destinasi Buatan</a></li>
                             <li><a class="dropdown-item {{ request()->routeIs('destinasi.budaya') ? 'active' : '' }}" href="{{ url('/destinasi/budaya') }}">Destinasi Budaya</a></li>
