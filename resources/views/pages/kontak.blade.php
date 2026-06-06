@@ -12,7 +12,7 @@
         height: 45vh;
         min-height: 320px;
         background: linear-gradient(135deg, rgba(0,0,0,0.65), rgba(0,0,0,0.4)),
-                    url('/image/hutaginjang/Hutaginjang_7.jpg') center/cover no-repeat;
+                    url('/image/hutaginjang/hutaginjang_7.jpg') center/cover no-repeat;
         display: flex;
         align-items: center;
         justify-content: center;

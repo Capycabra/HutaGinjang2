@@ -49,7 +49,7 @@
 </div>
 
 <!-- HERO -->
-<section class="hero" style="background-image: url('/image/hutaginjang/Hutaginjang_1.jpg');">
+<section class="hero" style="background-image: url('/image/hutaginjang/hutaginjang_1.jpg');">
     <div>
         <h1 class="hero-title">HUTAGINJANG</h1>
         <p class="hero-subtitle">Kecamatan Muara · Tapanuli Utara</p>

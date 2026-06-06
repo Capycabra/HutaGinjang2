@@ -164,11 +164,11 @@
         pointer-events: none;
     }
     
-    .slide-1 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/Hutaginjang_2.jpg'); }
-    .slide-2 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/Hutaginjang_3.jpg'); }
-    .slide-3 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/Hutaginjang_6.jpg'); }
-    .slide-4 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/Hutaginjang_7.jpg'); }
-    .slide-5 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/Hutaginjang_8.jpg'); }
+    .slide-1 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/hutaginjang_2.jpg'); }
+    .slide-2 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/hutaginjang_3.jpg'); }
+    .slide-3 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/hutaginjang_6.jpg'); }
+    .slide-4 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/hutaginjang_7.jpg'); }
+    .slide-5 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/hutaginjang/hutaginjang_8.jpg'); }
     
     .hero-content {
         position: absolute;
@@ -1098,7 +1098,7 @@
                       Kabupaten Humbang Hasundutan Humbahas, dan Huta Ginjang di Desa Silando, Huta Ginjang dan Desa Sitanggor, Kecamatan Muara, Kabupaten Tapanuli Utara. </p>
             </div>
             <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
-                <img src="/image/hutaginjang/Hutaginjang_1.jpg" alt="Danau Toba">
+                <img src="/image/hutaginjang/hutaginjang_1.jpg" alt="Danau Toba">
             </div>
         </div>
     </div>
@@ -1117,7 +1117,7 @@
             <!-- hutaginjang -->
             <div class="destinasi-item" data-aos="fade-up" data-aos-duration="1000">
                 <div class="destinasi-image">
-                    <img src="/image/hutaginjang/Hutaginjang_7.jpg" alt="tuktuk">
+                    <img src="/image/hutaginjang/hutaginjang_7.jpg" alt="tuktuk">
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">01 — GEOSITE</div>
@@ -1131,7 +1131,7 @@
             <!-- Paralayang -->
             <div class="destinasi-item reverse" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <div class="destinasi-image">
-                    <img src="/image/hutaginjang/Hutaginjang_10.jpg" alt="Ambarita">
+                    <img src="/image/hutaginjang/hutaginjang_10.jpg" alt="Ambarita">
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">02 — GEOSITE</div>

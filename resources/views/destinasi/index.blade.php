@@ -268,7 +268,7 @@
             <!-- Destinasi Alam -->
             <a href="{{ url('/destinasi/alam') }}" class="category-card" data-aos="fade-up">
                 <div class="card-image">
-                    <img src="{{ asset('image/hutaginjang/Hutaginjang_1.jpg') }}" alt="Destinasi Alam">
+                    <img src="{{ asset('image/hutaginjang/hutaginjang_1.jpg') }}" alt="Destinasi Alam">
                     <div class="card-overlay"></div>
                 </div>
 
@@ -289,7 +289,7 @@
             <!-- Destinasi Buatan -->
             <a href="{{ url('/destinasi/buatan') }}" class="category-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="card-image">
-                    <img src="{{ asset('/image/hutaginjang/Hutaginjang_10.jpg') }}" alt="Destinasi Buatan">
+                    <img src="{{ asset('/image/hutaginjang/hutaginjang_10.jpg') }}" alt="Destinasi Buatan">
                     <div class="card-overlay"></div>
                 </div>
 
@@ -310,7 +310,7 @@
             <!-- Destinasi Budaya -->
             <a href="{{ url('/destinasi/budaya') }}" class="category-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="card-image">
-                    <img src="{{ asset('image/hutaginjang/Hutaginjang_16.png') }}" alt="Destinasi Budaya">
+                    <img src="{{ asset('image/hutaginjang/hutaginjang_16.png') }}" alt="Destinasi Budaya">
                     <div class="card-overlay"></div>
                 </div>
 
