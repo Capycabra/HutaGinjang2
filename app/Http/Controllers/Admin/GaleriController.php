@@ -24,6 +24,8 @@ class GaleriController extends Controller
 
     public function store(Request $request)
     {
+        $request->merge(['kategori' => $this->kategoriTetap]);
+
         $request->validate([
             'judul'     => 'required|string|max:255',
             'kategori'  => 'required|in:Hutaginjang',
@@ -57,6 +59,8 @@ class GaleriController extends Controller
 
     public function update(Request $request, $id)
     {
+        $request->merge(['kategori' => $this->kategoriTetap]);
+
         $request->validate([
             'judul'     => 'required|string|max:255',
             'kategori'  => 'required|in:Hutaginjang',
