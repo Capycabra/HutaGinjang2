@@ -1098,7 +1098,7 @@
                       Kabupaten Humbang Hasundutan Humbahas, dan Huta Ginjang di Desa Silando, Huta Ginjang dan Desa Sitanggor, Kecamatan Muara, Kabupaten Tapanuli Utara. </p>
             </div>
             <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
-                <img src="/image/hutaginjang/hutaginjang_1.jpg" alt="Danau Toba">
+                <img src="/image/hutaginjang/Hutaginjang_1.jpg" alt="Danau Toba">
             </div>
         </div>
     </div>

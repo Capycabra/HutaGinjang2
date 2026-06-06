@@ -288,9 +288,9 @@
         <div class="container">
             <!-- LOGO SECTION - LANGSUNG DARI FOLDER public/image/Logo/ -->
             <div class="logo-wrapper">
-                <img src="{{ asset('image/Logo/logobankindonesia.jpg') }}" alt="Bank Indonesia" class="logo-img" loading="lazy">
+                <img src="{{ asset('image/logo/logobankindonesia.jpg') }}" alt="Bank Indonesia" class="logo-img" loading="lazy">
                 <div class="logo-divider"></div>
-                <img src="{{ asset('image/Logo/del.jpg') }}" alt="Logo Del" class="logo-img" loading="lazy">
+                <img src="{{ asset('image/logo/del.jpg') }}" alt="Logo Del" class="logo-img" loading="lazy">
                 <div class="logo-divider"></div>
                 <a class="navbar-brand" href="{{ url('/') }}">Geo<span>Toba</span></a>
             </div>

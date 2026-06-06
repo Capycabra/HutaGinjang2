@@ -49,7 +49,7 @@
 </div>
 
 <!-- HERO -->
-<section class="hero" style="background-image: url('/image/hutaginjang/hutaginjang_1.jpg');">
+<section class="hero" style="background-image: url('/image/hutaginjang/Hutaginjang_1.jpg');">
     <div>
         <h1 class="hero-title">HUTAGINJANG</h1>
         <p class="hero-subtitle">Kecamatan Muara · Tapanuli Utara</p>
@@ -280,9 +280,9 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-logo">
-            <img src="{{ asset('image/Logo/logobankindonesia.jpg') }}" class="footer-logo-img" alt="Bank Indonesia">
+            <img src="{{ asset('image/logo/logobankindonesia.jpg') }}" class="footer-logo-img" alt="Bank Indonesia">
             <div class="footer-logo-divider"></div>
-            <img src="{{ asset('image/Logo/del.jpg') }}" class="footer-logo-img" alt="Del">
+            <img src="{{ asset('image/logo/del.jpg') }}" class="footer-logo-img" alt="Del">
             <div class="footer-logo-divider"></div>
             <div class="footer-logo-text">
                 <h4>GEOTOBA</h4>
