@@ -184,7 +184,7 @@
 
             <div class="rute-info">
                 <div class="rute-item">
-                    <h4>📍 huta ginjang</h4>
+                    <h4>huta ginjang</h4>
                     <p>Area favorit wisatawan dengan hotel, cafe, dan restoran.</p>
                     <span class="rute-time">Pusat wisata Samosir</span>
                 </div>
