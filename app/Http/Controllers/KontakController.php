@@ -10,7 +10,7 @@ use App\Mail\KontakMail;
 class KontakController extends Controller
 {
     /**
-     * Display the kontak page
+     * menampilkan kontak page
      */
     public function index()
     {

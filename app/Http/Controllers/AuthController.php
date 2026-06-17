@@ -14,7 +14,7 @@ use Carbon\Carbon;
 
 class AuthController extends Controller
 {
-    // Show login form
+    // menunjukkan login form
     public function showLogin()
     {
         return view('auth.login');

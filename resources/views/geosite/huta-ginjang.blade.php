@@ -23,6 +23,15 @@
             <div class="divider"></div>
             <p>Warisan budaya Batak yang autentik dan masih hidup</p>
         </div>
+        <div class="sejarah-item reverse">
+            <div class="sejarah-image"><img src="/image/hutaginjang/ssssssss.jpeg" alt="Desa huta-ginjang" alt="Tradisi Batak"><img src="/image/hutaginjang/ssssssss2.jpg" alt="Desa huta-ginjang" alt="Tradisi Batak"></div>
+            <div class="sejarah-text">
+                <h3>Asal Usul Huta Ginjang</h3>
+                <p>Lapisan-lapisan berwarna yang terlihat pada singkapan tanah di Geosite Huta Ginjang merupakan bukti proses geologi yang berkaitan dengan aktivitas vulkanik purba pembentuk Kaldera Toba. Garis-garis tersebut menunjukkan adanya perlapisan endapan vulkanik yang terbentuk dari material letusan Gunung Toba purba sekitar 74.000 tahun yang lalu.
+Setiap lapisan memiliki warna dan ketebalan yang berbeda karena tersusun oleh material vulkanik yang diendapkan pada waktu dan kondisi yang berbeda. Warna kemerahan pada lapisan tertentu menunjukkan adanya kandungan mineral yang mengalami oksidasi, sedangkan lapisan berwarna terang umumnya berasal dari abu vulkanik dan material piroklastik yang mengendap setelah letusan.
+Perlapisan ini menjadi salah satu bukti geologi penting yang merekam sejarah letusan besar Toba. Setelah material vulkanik terendapkan, proses pelapukan, erosi, dan perubahan lingkungan selama ribuan tahun membentuk singkapan yang dapat diamati saat ini. Keberadaan lapisan-lapisan tersebut memberikan gambaran mengenai besarnya peristiwa vulkanik yang pernah terjadi dan berperan dalam pembentukan bentang alam kawasan Geosite Huta Ginjang.</p>
+            </div>
+        </div>
         <div class="sejarah-item">
             <div class="sejarah-image"><img src="/image/hutaginjang/hutaginjang_6.jpg" alt="Desa huta-ginjang"></div>
             <div class="sejarah-text">
@@ -44,6 +53,7 @@
                 <p>Huta ginjang terletak pada posisinya sebagai salah satu titik pandang tertinggi di ketinggian 1.555 meter di atas permukaan laut (mdpl), yang menyajikan panorama lanskap Kaldera Toba secara menyeluruh dan spektakuler. Berjarak hanya sekitar 15 menit berkendara dari Bandara Internasional Sisingamangaraja XII (Silangit), destinasi yang termasuk dalam 16 Geosite UNESCO Global Geopark ini menawarkan udara pegunungan yang sejuk dan bersih, dikelilingi oleh bentangan hutan pinus yang asri. Dari puncak bukitnya, wisatawan dapat menyaksikan hamparan biru air Danau Toba, kemegahan Pulau Samosir di bagian tengah, serta lekukan hijau perbukitan berbatu vulkanik dan petak persawahan subur di Lembah Muara di bawahnya. Selain keindahan alam untuk berburu foto lanskap (photography), tempat ini terkenal sebagai lokasi olahraga dirgantara paralayang (gantole) terbaik di kawasan Danau Toba. Para pencinta adrenalin dapat terbang tandem bersama instruktur profesional guna menikmati sensasi melayang bebas di angkasa sembari menatap panorama kaldera vulkanik terbesar di dunia. Menjelang sore, kawasan puncak ini bertransformasi menjadi spot ideal untuk menikmati fenomena matahari terbenam (sunset) yang romantis sebelum kabut tipis mulai turun menyelimuti perbukitan.</p>
             </div>
         </div>
+        
     </div>
 </section>
 

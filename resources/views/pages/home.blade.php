@@ -1117,7 +1117,7 @@
             <!-- hutaginjang -->
             <div class="destinasi-item" data-aos="fade-up" data-aos-duration="1000">
                 <div class="destinasi-image">
-                    <img src="/image/hutaginjang/hutaginjang_7.jpg" alt="tuktuk">
+                    <img src="/image/hutaginjang/hutaginjang_7.jpg" alt="hutaginjang">
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">01 — GEOSITE</div>
@@ -1131,7 +1131,7 @@
             <!-- Paralayang -->
             <div class="destinasi-item reverse" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <div class="destinasi-image">
-                    <img src="/image/hutaginjang/hutaginjang_10.jpg" alt="Ambarita">
+                    <img src="/image/hutaginjang/hutaginjang_10.jpg" alt="Paralayang">
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">02 — GEOSITE</div>
@@ -1145,7 +1145,7 @@
             <!-- Tugu Toga -->
             <div class="destinasi-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 <div class="destinasi-image">
-                    <img src="/image/hutaginjang/hutaginjang_15.jpg" alt="Tomok">
+                    <img src="/image/hutaginjang/hutaginjang_15.jpg" alt="Tugu Toga Aritonang">
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">03 — GEOSITE</div>
